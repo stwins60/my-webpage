@@ -9,10 +9,7 @@ body{
 header{
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: url(images/mypic.jfif);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 11%;
+    
 }
 
 h1{
