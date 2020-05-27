@@ -1,0 +1,222 @@
+body{
+	background-color:#55583e;
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: no-repeat;
+	background-size: 100%; 
+	
+
+}
+header{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-image: url(images/mypic.jfif);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 11%;
+}
+
+h1{
+	padding-left: 22px;
+	color: #FFFFFF;
+}
+
+h4{
+	padding: 10px;
+	color: white;
+}
+
+#wrapper{
+	background-color: rgb(35, 67, 94);
+	width: 80%;
+	min-width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px #000033;
+	overflow: hidden;
+}
+
+#wrapper2{
+	background-color: rgb(17, 58, 83);
+	width: 80%;
+	min-width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px #000033;
+	overflow: hidden;
+}
+#nav a{
+	text-decoration:none;
+}
+#nav{
+	text-decoration: none;
+	background-color: #FFA500;
+	font-weight: bold;
+	text-align: left;
+	padding: 10px;
+}
+#nav a:link {
+     color: #000033;
+}
+
+#nav a:visited {
+     color: #000000;
+}
+
+#nav a:hover {
+     color: #FFFFFF;
+}
+table a:link {
+     color: #000033;
+}
+
+table a:visited {
+     color: #000000;
+}
+
+table a:hover {
+     color: #FFFFFF;
+}
+table td{
+    color: white;
+}
+
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+
+}
+
+li {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main li, ul{
+	list-style: square;
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	font-family: corsiva;
+	list-style: square;
+	color: white;
+}
+
+table, td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th{
+	text-align:center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+		border: 1px solid #ddd;
+		table-layout: fixed;
+
+}
+
+th, td {
+    padding: 15px;
+}
+p{
+    color: white;
+}
+ #proj li{
+    color: lightgoldenrodyellow;
+ }
+ 
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 100%; background-color: #4CAF50;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 80%; background-color: #f44336;}
+  .php {width: 60%; background-color: #808080;}
+  .java {width: 100%; background-color: rgb(170, 240, 59);}
+  .shellscript {width: 80%; background-color: rgb(4, 20, 34);}
+  .git {width: 70%; background-color: #704744;}
+  .pentesting {width: 70%; background-color: #4cc574;}
+  .vagrant {width: 70%; background-color: #15addb;}
+
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
